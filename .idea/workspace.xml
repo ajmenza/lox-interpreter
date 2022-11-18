@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4768985e-7b52-4f79-a60c-8ae609117110" name="Changes" comment="defined token types in enum">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lox/Token.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lox/TokenType.java" afterDir="false" />
+    <list default="true" id="4768985e-7b52-4f79-a60c-8ae609117110" name="Changes" comment="created token class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lox/Scanner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +19,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,7 +39,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "actions.on.save"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -63,7 +67,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668809652937</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="defined token types in enum">
+      <created>1668811538177</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668811538177</updated>
+    </task>
+    <task id="LOCAL-00004" summary="created token class">
+      <created>1668811571760</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668811571760</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -81,6 +99,7 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="implemented file parser, command prompt parser, and error reporting" />
     <MESSAGE value="defined token types in enum" />
-    <option name="LAST_COMMIT_MESSAGE" value="defined token types in enum" />
+    <MESSAGE value="created token class" />
+    <option name="LAST_COMMIT_MESSAGE" value="created token class" />
   </component>
 </project>
